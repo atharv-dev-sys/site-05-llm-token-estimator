@@ -6,7 +6,7 @@ export default function ArticlePage() {
       <AdPlaceholder variant="leaderboard" />
       <article className="mt-8">
         <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-8">Enterprise GPU Procurement: Comparing NVIDIA H100, A100, and RTX 4090 for LLMs</h1>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">Procuring the right hardware is often the most significant financial decision an AI-driven enterprise will make. In the current market, three GPUs dominate the conversation: the NVIDIA H100 (Hopper), the A100 (Ampere), and the RTX 4090 (Ada Lovelace). Each represents a different tier of performance, cost, and availability. For organizations scaling enterprise AI in Pune's high-growth software corridors, the choice between these cards can determine the feasibility of their AI roadmap. This article provides a detailed comparison of these three GPUs, focusing on their performance in Large Language Model (LLM) inference and fine-tuning, and offers a procurement strategy for the 2026 landscape.</p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">Procuring the right hardware is often the most significant financial decision an AI-driven enterprise will make. In the current market, three GPUs dominate the conversation: the NVIDIA H100 (Hopper), the A100 (Ampere), and the RTX 4090 (Ada Lovelace). Each represents a different tier of performance, cost, and availability. For organizations scaling enterprise AI in Pune&apos;s high-growth software corridors, the choice between these cards can determine the feasibility of their AI roadmap. This article provides a detailed comparison of these three GPUs, focusing on their performance in Large Language Model (LLM) inference and fine-tuning, and offers a procurement strategy for the 2026 landscape.</p>
         <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">1. NVIDIA H100 (Hopper): The High-Performance Gold Standard</h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">The H100 is the current flagship of NVIDIA’s enterprise lineup. It is designed specifically for the massive scale of modern Transformer models.</p>
         <h3 className="text-2xl font-semibold tracking-tight mt-8 mb-3">Key Technical Advantages:</h3>
@@ -32,7 +32,7 @@ export default function ArticlePage() {
         <h3 className="text-2xl font-semibold tracking-tight mt-8 mb-3">Best For:</h3>
         <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
           <li><strong>Cost-Effective Enterprise Scaling:</strong> Provides excellent performance-per-dollar, especially as prices stabilize in the wake of the H100 rollout.</li>
-          <li><strong>Standard Fine-Tuning (LoRA/QLoRA):</strong> The 80GB VRAM is the "sweet spot" for almost all modern fine-tuning tasks.</li>
+          <li><strong>Standard Fine-Tuning (LoRA/QLoRA):</strong> The 80GB VRAM is the &quot;sweet spot&quot; for almost all modern fine-tuning tasks.</li>
           <li><strong>Private Cloud Deployments:</strong> A reliable and well-supported choice for organizations building their first dedicated AI clusters in Pune’s tech hubs.</li>
         </ul>
         <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">3. NVIDIA RTX 4090: The Disruptive Consumer Powerhouse</h2>
@@ -59,7 +59,7 @@ export default function ArticlePage() {
         <p className="leading-7 [&:not(:first-child)]:mt-6">| <strong>Target Workload</strong> | Large Training/Serving | Fine-Tuning/Standard Serving | Prototyping/Edge |</p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">| <strong>Cost Tier</strong> | Ultra-Premium | Premium | Affordable/Prosumer |</p>
         <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">Strategic Considerations for Pune’s AI Infrastructure</h2>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">When planning your procurement strategy in Pune’s tech corridors, consider the following "Hidden Costs":</p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">When planning your procurement strategy in Pune’s tech corridors, consider the following &quot;Hidden Costs&quot;:</p>
         <h3 className="text-2xl font-semibold tracking-tight mt-8 mb-3">1. Power and Cooling</h3>
         <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
           <li>An H100 server (8-GPU) can consume 10,000 watts. Most standard office buildings in Baner or Kharadi are not equipped for this. You may need to factor in significant electrical and HVAC upgrades.</li>
@@ -73,7 +73,7 @@ export default function ArticlePage() {
         <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
           <li>In 2026, while supply has improved, H100s can still have lead times of several months. Procurement teams should plan at least two quarters in advance for large-scale cluster deployments.</li>
         </ul>
-        <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">The Hybrid Procurement Strategy: The "Optimal" Path</h2>
+        <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">The Hybrid Procurement Strategy: The &quot;Optimal&quot; Path</h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">For most firms in Pune, the most effective strategy is a tiered approach:</p>
         <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
           <li><strong>Tier 1 (Core):</strong> A small cluster of H100s or A100s for central production services and mission-critical fine-tuning.</li>

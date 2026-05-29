@@ -13,14 +13,14 @@ export default function ArticlePage() {
         <p className="leading-7 [&:not(:first-child)]:mt-6">A Large Language Model is only as effective as the data it processes. In the EON Free Zone, optimizing the data pipeline is the first step toward successful AI deployment.</p>
         <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
           <li><strong>Real-Time Data Ingestion:</strong> For financial services, AI must often process data in real-time. This requires high-bandwidth data ingestion pipelines using technologies like Apache Kafka or Amazon Kinesis.</li>
-          <li><strong>Data Privacy and Pre-processing:</strong> Within the EON Free Zone's regulatory framework, pre-processing pipelines must include robust data masking and PII (Personally Identifiable Information) removal stages. This ensures that sensitive data is sanitized before it ever reaches the AI model.</li>
-          <li><strong>Vector Databases for RAG:</strong> Retrieval-Augmented Generation (RAG) is a standard architectural pattern for BPOs in Kharadi. Optimizing the "ingest-to-index" pipeline for vector databases (like Pinecone, Milvus, or Weaviate) is essential for maintaining the accuracy and relevance of AI responses.</li>
+          <li><strong>Data Privacy and Pre-processing:</strong> Within the EON Free Zone&apos;s regulatory framework, pre-processing pipelines must include robust data masking and PII (Personally Identifiable Information) removal stages. This ensures that sensitive data is sanitized before it ever reaches the AI model.</li>
+          <li><strong>Vector Databases for RAG:</strong> Retrieval-Augmented Generation (RAG) is a standard architectural pattern for BPOs in Kharadi. Optimizing the &quot;ingest-to-index&quot; pipeline for vector databases (like Pinecone, Milvus, or Weaviate) is essential for maintaining the accuracy and relevance of AI responses.</li>
         </ul>
         <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">2. Model Optimization: Balancing Performance and VRAM</h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">In a high-density environment like Kharadi, maximizing the efficiency of every GPU is critical for cost-effectiveness.</p>
         <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
           <li><strong>Strategic Quantization:</strong> Firms in the EON Free Zone are increasingly using 4-bit and 8-bit quantization (AWQ/GPTQ) to fit larger, more capable models onto available hardware. This allows for a higher number of concurrent requests per server, which is vital for high-volume BPO operations.</li>
-          <li><strong>Speculative Decoding for Speed:</strong> To reduce the latency of AI responses in customer service applications, developers are implementing speculative decoding. This technique uses a smaller "draft" model to speed up the generation of the larger "target" model, resulting in a significantly better user experience.</li>
+          <li><strong>Speculative Decoding for Speed:</strong> To reduce the latency of AI responses in customer service applications, developers are implementing speculative decoding. This technique uses a smaller &quot;draft&quot; model to speed up the generation of the larger &quot;target&quot; model, resulting in a significantly better user experience.</li>
           <li><strong>KV Cache Management:</strong> Technologies like PagedAttention (vLLM) are standard in EON’s AI clusters. By managing the KV cache more efficiently, organizations can handle the long conversations and complex document reviews that are common in legal and financial services.</li>
         </ul>
         <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">3. Deployment Architectures: From Private Cloud to On-Premise</h2>
@@ -34,7 +34,7 @@ export default function ArticlePage() {
         <p className="leading-7 [&:not(:first-child)]:mt-6">Choosing the right hardware is a critical part of the optimization process for EON-based firms.</p>
         <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
           <li><strong>Enterprise-Grade GPUs:</strong> The NVIDIA H100 and A100 remain the gold standard for high-performance inference and fine-tuning. Their high memory bandwidth is essential for the long-context applications being developed in Kharadi.</li>
-          <li><strong>Efficient Inference Accelerators:</strong> For high-volume, low-latency tasks that don't require the full power of an H100, many organizations are deploying NVIDIA L4 or L40S GPUs. these provide a more cost-effective and energy-efficient solution for large-scale deployments.</li>
+          <li><strong>Efficient Inference Accelerators:</strong> For high-volume, low-latency tasks that don&apos;t require the full power of an H100, many organizations are deploying NVIDIA L4 or L40S GPUs. these provide a more cost-effective and energy-efficient solution for large-scale deployments.</li>
           <li><strong>High-Speed Networking:</strong> Low-latency networking (InfiniBand or 400GbE) is a requirement for multi-GPU inference and clustered training, ensuring that communication between nodes is not a bottleneck.</li>
         </ul>
         <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">5. Security and Compliance in the EON Free Zone</h2>

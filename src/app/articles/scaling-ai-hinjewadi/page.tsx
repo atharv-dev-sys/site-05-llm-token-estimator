@@ -6,7 +6,7 @@ export default function ArticlePage() {
       <AdPlaceholder variant="leaderboard" />
       <article className="mt-8">
         <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-8">Scaling AI Infrastructure for Large-Scale Applications in Hinjewadi Phase 3 Tech Clusters</h1>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">Hinjewadi Phase 3, often referred to as the "Silicon Valley" of Pune, has evolved into a global powerhouse for software development and IT-enabled services. As the world transitions into the AI-first era, the massive tech parks and global delivery centers in this cluster are facing a new challenge: scaling AI infrastructure to support large-scale generative AI applications. From multinational corporations to disruptive startups, the demand for high-performance computing, efficient VRAM management, and low-latency inference is reshaping the physical and digital landscape of Hinjewadi. This article provides a strategic roadmap for scaling AI infrastructure within the unique ecosystem of Pune’s premier tech hub.</p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">Hinjewadi Phase 3, often referred to as the &quot;Silicon Valley&quot; of Pune, has evolved into a global powerhouse for software development and IT-enabled services. As the world transitions into the AI-first era, the massive tech parks and global delivery centers in this cluster are facing a new challenge: scaling AI infrastructure to support large-scale generative AI applications. From multinational corporations to disruptive startups, the demand for high-performance computing, efficient VRAM management, and low-latency inference is reshaping the physical and digital landscape of Hinjewadi. This article provides a strategic roadmap for scaling AI infrastructure within the unique ecosystem of Pune’s premier tech hub.</p>
         <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">The AI Transformation of Hinjewadi Phase 3</h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">Hinjewadi Phase 3 is characterized by its high-density IT infrastructure, massive power requirements, and a workforce that is rapidly upskilling in LLM operations (LLMOps). Scaling AI in this environment is not just about buying more GPUs; it’s about architecting systems that can handle the specific demands of enterprise-scale deployments while navigating the constraints of a high-growth urban tech corridor.</p>
         <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">1. High-Density Compute: Beyond the Individual Workstation</h2>
@@ -19,13 +19,13 @@ export default function ArticlePage() {
         <p className="leading-7 [&:not(:first-child)]:mt-6">For the large-scale applications being developed in Hinjewadi—ranging from automated code review for global banks to predictive maintenance for international manufacturing—VRAM is the most precious resource.</p>
         <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
           <li><strong>Mastering Quantization:</strong> Engineering teams are standardizing on 4-bit and 8-bit quantization formats (GPTQ/AWQ) to maximize the number of model instances per GPU. This is critical for maintaining high throughput across multiple time zones.</li>
-          <li><strong>KV Cache Optimization:</strong> By implementing PagedAttention (vLLM) and FlashAttention-3, firms are able to support the long context windows (128K+) required for analyzing complex enterprise documents without the "memory bloat" that traditionally plagued early LLM deployments.</li>
+          <li><strong>KV Cache Optimization:</strong> By implementing PagedAttention (vLLM) and FlashAttention-3, firms are able to support the long context windows (128K+) required for analyzing complex enterprise documents without the &quot;memory bloat&quot; that traditionally plagued early LLM deployments.</li>
         </ul>
         <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">3. Connectivity and Low-Latency Inference</h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">Hinjewadi Phase 3’s proximity to major fiber backbones provides a strategic advantage for low-latency AI services.</p>
         <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
           <li><strong>Inter-GPU Interconnects:</strong> For multi-GPU inference, high-speed interconnects like NVLink are becoming standard. This allows for Tensor Parallelism, which is essential for the sub-second response times required by interactive AI applications.</li>
-          <li><strong>Edge Inference:</strong> Many Hinjewadi-based firms are exploring "Edge AI" deployments, where quantized models are hosted closer to the end-user to further reduce latency and data transfer costs.</li>
+          <li><strong>Edge Inference:</strong> Many Hinjewadi-based firms are exploring &quot;Edge AI&quot; deployments, where quantized models are hosted closer to the end-user to further reduce latency and data transfer costs.</li>
         </ul>
         <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">4. Power and Sustainability: The ESG Factor</h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">Scaling AI infrastructure is power-intensive. In a high-growth corridor like Hinjewadi, managing power consumption is both an operational and an ethical imperative.</p>
@@ -39,7 +39,7 @@ export default function ArticlePage() {
           <li><strong>On-Premise vs. Cloud:</strong> While many firms use the cloud for initial development, there is a strong trend toward on-premise or private cloud deployments for production AI in Hinjewadi. This ensures that proprietary data and fine-tuned model weights remain within the company’s secure perimeter.</li>
           <li><strong>Confidential Computing:</strong> Implementing Trusted Execution Environments (TEEs) and encrypted VRAM are becoming best practices for processing sensitive information in multi-tenant environments.</li>
         </ul>
-        <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">The Role of LLMOps in Hinjewadi's Growth</h2>
+        <h2 className="text-3xl font-semibold tracking-tight mt-10 mb-4 border-b pb-2">The Role of LLMOps in Hinjewadi&apos;s Growth</h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">The success of AI in Hinjewadi Phase 3 is as much about people and processes as it is about hardware.</p>
         <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
           <li><strong>Automated Pipelines:</strong> Scaling requires robust LLMOps pipelines that can automate model quantization, testing, and deployment.</li>
