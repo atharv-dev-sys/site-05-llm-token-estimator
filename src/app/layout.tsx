@@ -35,9 +35,10 @@ export default function RootLayout({
         {/* ✅ Google AdSense script - Using verified template pattern */}
         <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5015165884772367"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6318347746004237"
           crossOrigin="anonymous"
         ></script>
+        <meta name="google-adsense-account" content="ca-pub-6318347746004237" />
         <meta name="theme-color" content="#ffffff" />
       </head>
       <body className="font-body antialiased flex flex-col min-h-screen">
